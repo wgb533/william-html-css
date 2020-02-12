@@ -61,3 +61,26 @@ body {
   ol {
     list-style-position: inside;
   }
+  #nutrition li {
+    list-style-type: none;
+    border-bottom: grey dotted 1px;
+    /* background-color: red; */
+    float: left;
+    width: 48%
+  }
+  #nutrition li:nth-child(odd) {
+    clear: both;
+    margin-right: 10px;
+  }
+  #nutrition .nutri-value {
+    float: right;
+  }
+  footer {
+    clear: both;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+  } 
+  footer p {
+    font: 1rem Arial;
+  }
